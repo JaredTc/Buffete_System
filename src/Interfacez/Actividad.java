@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Interfacez;
 
 import buffete.MYSQLConexion;
@@ -11,18 +7,11 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Jared
- */
 public class Actividad extends javax.swing.JInternalFrame {
 
     MYSQLConexion cc = new MYSQLConexion();
     Connection con = cc.conexion();
 
-    /**
-     * Creates new form Actividad
-     */
     public Actividad() {
         initComponents();
 
